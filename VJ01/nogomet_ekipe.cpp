@@ -1,3 +1,5 @@
+//Tekst na: https://github.com/VButo/OOP/blob/0be5690d86437f6ec94b879a28545ba90ab039b1/Tekstovi/nogomet_ekipe.png
+
 #include <iostream>
 #include <vector>
 #include <string>
