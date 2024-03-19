@@ -1,4 +1,4 @@
-//Tekst na: 
+//Tekst na: https://github.com/VButo/OOP/blob/44effabfb2a82b28ce87be848839433e659ac0e5/Tekstovi/garaza_tekst.png
 
 #include <iostream>
 #include <vector>
