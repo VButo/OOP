@@ -1,3 +1,5 @@
+//Tekst na: https://github.com/VButo/OOP/blob/3d1b3f6593216057b864c9a7cc8fe25ad640535a/Tekstovi/cipele_tekst.png
+
 #include <iostream>
 #include <vector>
 using namespace std;
