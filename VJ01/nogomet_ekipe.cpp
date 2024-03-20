@@ -35,7 +35,6 @@ public:
                     vIgrac[j] = tempI;
                 }
             }
-            vIgrac[i].ispisi();
         }
     }
 
