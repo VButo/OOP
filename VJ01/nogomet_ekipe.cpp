@@ -25,7 +25,22 @@ public:
         vIgrac.push_back(igrac);
     }
 
+    void sortiraj() {
+        Igrac tempI = vIgrac[0];
+        for (int i = 0; i < vIgrac.size(); i++) {
+            for (int j = i; j < vIgrac.size(); j++) {
+                if (vIgrac[j].broj < vIgrac[i].broj) {
+                    tempI = vIgrac[i];
+                    vIgrac[i] = vIgrac[j];
+                    vIgrac[j] = tempI;
+                }
+            }
+            vIgrac[i].ispisi();
+        }
+    }
+
     void ispisi() {
+        sortiraj();
         cout << naziv << ":" << endl;
         for (int i = 0; i < vIgrac.size(); i++) {
             vIgrac[i].ispisi();
